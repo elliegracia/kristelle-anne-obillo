@@ -1,0 +1,67 @@
+body {
+	background: #ffdead; 
+}
+
+.header {
+	display: grid;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.list {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 20px;
+		padding: 0px;
+}
+
+.list li{
+	padding: 10px;
+	border: 2px white solid;
+	color: black;
+	background: #F2A65A;
+	text-align: center;
+	list-style: none;
+}
+
+.casom {
+  text-align:center;
+  padding: 10px;
+  margin: 10px;
+  height: 10vh;
+  background: brown;
+  line-height: 10px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+}
+
+.kanan {
+	border-radius: 15px;
+	border: 2px black solid;
+	text-align:center;
+	background-color:#D8896B;
+	color: yellow;
+	font-family: Verdana;
+	font-size: 60;
+	height: 90vh;
+	padding: 10px;
+}
+
+.kaliwa {
+	border-radius: 15px;
+	border: 2px black solid;
+	text-align:center;
+	background-image:  url(../images/charm.jpg.jpg);
+	background-position: center;
+	color: yellow;
+	height: 90vh;
+	padding: 10px;
+}
+
+.footer { 
+  text-align: center;
+}

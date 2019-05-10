@@ -1,0 +1,72 @@
+body {
+	background: #ffdead; 
+}
+
+.header {
+	display: grid;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.list {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 20px;
+		padding: 0px;
+}
+
+.list li{
+	padding: 10px;
+	border: 2px white solid;
+	color: black;
+	background: #F2A65A;
+	text-align: center;
+	list-style: none;
+}
+
+.titan {
+  text-align:center;
+  padding: 10px;
+  margin: 10px;
+  height: 10vh;
+  background: brown;
+  line-height: 10px;
+}
+
+.tab {
+	margin-left: 20px;
+}
+
+.container2 {
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+}
+
+.left {
+	border-radius: 15px;
+	border: 2px black solid;
+	text-align:center;
+	background-color:#D8896B;
+	color: yellow;
+	font-family: Verdana;
+	font-size: 60;
+	height: 90vh;
+	padding: 10px;
+}
+
+.right {
+	border-radius: 15px;
+	border: 2px black solid;
+	text-align:center;
+	background-image:  url(../images/1.jpg.jpg);
+	background-position: center;
+	color: yellow;
+	height: 90vh;
+	padding: 10px;
+}
+
+.footer{
+	text-align: center;
+}
